@@ -1,0 +1,13 @@
+@import 'tailwindcss/base';
+
+@import 'tailwindcss/components';
+
+@import 'tailwindcss/utilities';
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Poppins:wght@300;400;600;700&display=swap');
+@import '../../../node_modules/material-design-icons/iconfont/material-icons.css';
+
+@layer base {
+  body {
+    @apply text-gray-600;
+  }
+}
