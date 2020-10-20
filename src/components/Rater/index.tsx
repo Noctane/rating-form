@@ -1,9 +1,20 @@
 import React, { useState } from 'react';
 import { FaStar } from 'react-icons/fa';
 
-function Rater() {
-  const [rating, setRating] = useState<number | string>(0);
+interface IRater {
+  name: string;
+  value: number | string;
+  onChangeRating: (rating: number | string) => void;
+}
+
+function Rater({ name, value, onChangeRating }: IRater) {
+  const [rating, setRating] = useState<number | string>(value);
   const [isRating, setIsRating] = useState<number | string>(0);
+
+  const handleRating = async (val: number) => {
+    setRating(val);
+    onChangeRating(val);
+  };
 
   return (
     <div className="flex justify-center my-6">
@@ -14,9 +25,9 @@ function Rater() {
             <input
               className="hidden"
               type="radio"
-              name="rating"
+              name={name}
               value={ratingValue}
-              onClick={() => setRating(ratingValue)}
+              onClick={() => handleRating(ratingValue)}
             />
             <FaStar
               className="cursor-pointer"
