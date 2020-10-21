@@ -22,11 +22,24 @@ A la validation, une requête POST sera envoyée à une url quelconque (pas beso
 
 ## Installation
 
-Pour lancer cette application, il est nécessaire d'avoir [Node.js](https://nodejs.org/en/) (v12+) et [Git](https://git-scm.com/) installés sur votre ordinateur.
+Pour lancer cette application, il est nécessaire d'avoir [Node.js](https://nodejs.org/en/) (v12+).
 
-## Stack
+```bash
+# Aller dans le répertoire du projet
+$ cd rating-form
 
-- React
-- Typescript
-- TailwindCSS
-- Emotion
+# Installer les dépendances
+$ npm install
+
+# Lancer le projet
+$ npm start
+```
+
+Une fenêtre de votre navigateur devrait s'ouvrir automatiquement au bout de quelques secondes. Si ce n'est pas le cas, vous pouvew vous rendre manuellement sur [http://localhost:3000](http://localhost:3000).
+
+## Crédits
+
+- [React](https://reactjs.org/)
+- [Typescript](https://www.typescriptlang.org/)
+- [TailwindCSS](https://tailwindcss.com/)
+- [Emotion](https://emotion.sh/docs/introduction)
