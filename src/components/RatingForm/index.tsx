@@ -11,7 +11,7 @@ export function RatingForm() {
     const formData = new FormData();
     Object.keys(data).map((k) => formData.append(k, data[k]));
 
-    api('http://localhost:4000', formData).then((data) =>
+    api('http://localhost:3000', formData).then((data) =>
       console.log('success')
     );
   };
