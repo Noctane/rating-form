@@ -35,7 +35,7 @@ $ npm install
 $ npm start
 ```
 
-Une fenêtre de votre navigateur devrait s'ouvrir automatiquement au bout de quelques secondes. Si ce n'est pas le cas, vous pouvew vous rendre manuellement sur [http://localhost:3000](http://localhost:3000).
+Une fenêtre de votre navigateur devrait s'ouvrir automatiquement au bout de quelques secondes. Si ce n'est pas le cas, vous pouvez vous rendre manuellement sur [http://localhost:3000](http://localhost:3000).
 
 ## Crédits
 
