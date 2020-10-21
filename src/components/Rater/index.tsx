@@ -5,6 +5,7 @@ interface IRater {
   name: string;
   value: number | string;
   onChangeRating: (rating: number | string) => void;
+  isRequired: boolean;
 }
 
 function Rater({ name, value, onChangeRating }: IRater) {

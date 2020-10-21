@@ -1,3 +1,5 @@
+![Eldo Rating](./src/assets/img/doc/capture-ratingform.png)
+
 # Formulaire d'avis sur les artisans
 
 ## Description
@@ -17,6 +19,10 @@ Il devra contenir:
 - L'upload eventuel de photos
 
 A la validation, une requête POST sera envoyée à une url quelconque (pas besoin d'implémenter le backoffice)
+
+## Installation
+
+Pour lancer cette application, il est nécessaire d'avoir [Node.js](https://nodejs.org/en/) (v12+) et [Git](https://git-scm.com/) installés sur votre ordinateur.
 
 ## Stack
 

@@ -26,8 +26,9 @@ export function RatingForm() {
   };
 
   return (
-    <form encType="multipart/form-data">
+    <form>
       <Rater
+        isRequired
         name="rating"
         value={values.rating}
         onChangeRating={onChangeRating}
@@ -119,6 +120,7 @@ export function RatingForm() {
       </div>
       <div className="flex justify-center mt-8">
         <button
+          disabled={Object.keys(errors).length > 0}
           className="py-2 px-4 bg-green-500 text-white rounded shadow hover:bg-opacity-75"
           onClick={handlers.handleSubmit}
         >
