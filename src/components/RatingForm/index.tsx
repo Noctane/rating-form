@@ -37,7 +37,7 @@ export function RatingForm() {
         labelMessage="Adresse email"
         type="email"
         name="email"
-        placeholder="arnaud.prat@gmail.com"
+        placeholder="john.doe@mail.com"
         onChange={handlers.handleChange}
         onFocus={handlers.handleFocus}
         onBlur={handlers.handleBlur}
@@ -49,7 +49,7 @@ export function RatingForm() {
         labelMessage="Adresse postale"
         type="text"
         name="address"
-        placeholder="114 chemin de la peyrette"
+        placeholder="Votre adresse postale"
         onChange={handlers.handleChange}
         onFocus={handlers.handleFocus}
         onBlur={handlers.handleBlur}
@@ -62,7 +62,7 @@ export function RatingForm() {
           labelMessage="Code postal"
           type="text"
           name="cp"
-          placeholder="31170"
+          placeholder="31000"
           className="w-1/2 mr-2"
           onChange={handlers.handleChange}
           onFocus={handlers.handleFocus}
@@ -75,7 +75,7 @@ export function RatingForm() {
           labelMessage="Ville"
           type="text"
           name="city"
-          placeholder="Tournefeuille"
+          placeholder="Toulouse"
           className="w-1/2 ml-2"
           onChange={handlers.handleChange}
           onFocus={handlers.handleFocus}
